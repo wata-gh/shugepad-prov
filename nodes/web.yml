@@ -1,0 +1,12 @@
+rbenv:
+  global:
+    2.2.3
+  versions:
+    - 2.2.3
+
+  scheme: https
+
+rbenv-default-gems:
+  default-gems:
+    - bundler
+    - rails

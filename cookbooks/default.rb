@@ -1,4 +1,5 @@
 include_recipe 'selinux::disabled'
+include_recipe "rbenv::system"
 
 service 'iptables' do
   action [:disable, :stop]
